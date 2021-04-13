@@ -11,7 +11,7 @@ XCODE_CODE_SNIPPETS_DIRECTORY=$HOME/Library/Developer/Xcode/UserData/CodeSnippet
 
 # -- 1 -- Linking `.swiftLint.yml`
 echo "1. Linking .swiftlint.yml:"
-ln -sf $SCRIPTS_DIRECTORY/.swiftlint.yml $GIT_ROOT/swiftlint.yml 
+ln -sf $SCRIPTS_DIRECTORY/.swiftlint.yml $GIT_ROOT/.swiftlint.yml 
 
 if [[ $? != 0 ]] ; then
 echo ".swiftlint.yml moving failed"
@@ -28,3 +28,4 @@ echo "Hooks successfully reassigned to '$GIT_HOOKS_DIRECTORY'"
 ## -- 3 -- Add Useful Code Snippets to Xcode
 echo "3. Add Useful Code Snippets to Xcode"
 cp $GIT_CODE_SNIPPETS $XCODE_CODE_SNIPPETS_DIRECTORY
+echo "Code Snippets successfully copied to '$XCODE_CODE_SNIPPETS_DIRECTORY'"

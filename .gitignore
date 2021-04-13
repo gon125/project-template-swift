@@ -91,3 +91,6 @@ iOSInjectionProject/
 
 # Mac Cache
 *.DS_Store
+
+# SwiftLint
+swiftlint.yml

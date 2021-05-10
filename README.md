@@ -2,6 +2,9 @@
 
 ## To Set Up
 run scripts/.project-setup.sh
+## Branch Naming Rule
+issueNumber-work-you've-done <br>
+ex) 14-add-auth-feature
 ### What It Does
 1. Linking `.swiftLint.yml`
 2. Reassigning Git Hooks
